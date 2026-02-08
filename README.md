@@ -17,7 +17,13 @@ docker compose -f db.yaml up # monitoring
 docker compose -f db.yaml up -d # background
 ```
 
-### Admin
+## Admin
+```sh
+docker compose -f admin.yaml up # monitoring
+docker compose -f admin.yaml up -d # background
+```
+
+## App
 ```sh
 docker compose -f admin.yaml up # monitoring
 docker compose -f admin.yaml up -d # background
