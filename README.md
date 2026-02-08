@@ -7,7 +7,7 @@
 
 ## Enviroment
 ```sh
-cp env.siple .env
+cp env.simple .env
 ```
 
 ## Running services
@@ -15,4 +15,10 @@ cp env.siple .env
 ```sh
 docker compose -f db.yaml up # monitoring
 docker compose -f db.yaml up -d # background
+```
+
+### Admin
+```sh
+docker compose -f admin.yaml up # monitoring
+docker compose -f admin.yaml up -d # background
 ```
