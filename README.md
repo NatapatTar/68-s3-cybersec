@@ -7,7 +7,7 @@
 
 ## Enviroment
 ```sh
-cp env.siple .env
+cp env.simple .env
 ```
 
 ## Running services
