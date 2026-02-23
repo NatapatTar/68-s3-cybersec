@@ -1,6 +1,6 @@
 services:
   s3app:
-    image: prawee/strapi:latest
+    image: prawee/strapi
     container_name: 68-s3-app
     environment:
       DATABASE_NAME: ${APP_NAME}

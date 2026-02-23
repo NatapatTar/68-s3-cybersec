@@ -2,7 +2,7 @@ include:
   - db.yaml
 services:
   s3app:
-    image: prawee/strapi:latest
+    image: prawee/strapi
     container_name: 68-s3-app
     ports:
       - ${APP_PORT}:1337
@@ -12,6 +12,6 @@ services:
       DATABASE_PORT: ${APP_DB_PORT}
       DATABASE_USERNAME: ${APP_USER}
       DATABASE_PASSWORD: ${APP_PASSWORD}
-      DATABASE_CLIENT: ${APP_CLIENT}
+      DATABASE_CLIENT: postgres
     depends_on:
       - s3db
